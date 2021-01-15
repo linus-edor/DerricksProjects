@@ -1,0 +1,10 @@
+all: PA7.exe
+
+clean:
+    rm testProgram.o PA7.exe
+
+PA7.exe: testProgram.o
+    g++ -g -o PA7 testProgram.o
+
+testProgram.o:
+    g++ -c -g testProgram.cpp

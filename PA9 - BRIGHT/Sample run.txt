@@ -1,0 +1,75 @@
+PA9 - GRAPH PROJECCT
+
+The program repeatedly prompts the user to operations to perform
+on graph created form the file AdjListFile.txt.
+
+----------Menu----------
+1. Print shortest distance from a vertex
+2. Print the edges in the minimal spanning tree of the graph.
+3. Exit
+
+Enter a menu option
+1
+Enter a vertex number to print shortest distance
+2
+Source Vertex: 2
+Shortest Distance from Source to each Vertex.
+Vertex  Shortest_Distance
+   0     1675008
+   1           0
+   2     1638736
+
+Enter a menu option
+2
+Available soon
+Enter a menu option
+1
+Enter a vertex number to print shortest distance
+4
+Source Vertex: 4
+Shortest Distance from Source to each Vertex.
+Vertex  Shortest_Distance
+   0     1675008
+   1           0
+   2     1638736
+
+Enter a menu option
+1
+Enter a vertex number to print shortest distance
+5
+Source Vertex: 5
+Shortest Distance from Source to each Vertex.
+Vertex  Shortest_Distance
+   0     1675008
+   1           0
+   2     1638736
+
+Enter a menu option
+2
+Available soon
+Enter a menu option
+1
+Enter a vertex number to print shortest distance
+3
+Source Vertex: 3
+Shortest Distance from Source to each Vertex.
+Vertex  Shortest_Distance
+   0     1675008
+   1           0
+   2     1638736
+
+Enter a menu option
+1
+Enter a vertex number to print shortest distance
+5
+Source Vertex: 5
+Shortest Distance from Source to each Vertex.
+Vertex  Shortest_Distance
+   0     1675008
+   1           0
+   2     1638736
+
+Enter a menu option
+3
+------BRIGHT OWUSU------
+Bye....

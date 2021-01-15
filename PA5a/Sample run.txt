@@ -1,0 +1,111 @@
+LINKED LIST TEST APPLICATION
+=====================================
+
+This program presents a menu of tasks to perform on an unordered linked list.
+
+--------------Program Menu--------------
+1 Add a new item to the list
+2 Delete the first occurrence of a given item from the list
+3 Delete all occurrences of a given item from the list
+4 Delete the smallest item from the list
+5 Print the kth item in the list
+6 Delete the kth item from the list
+7 Print the list in reverse
+8 print the list
+9 Quit
+
+Choose an operation to perform:
+1
+Enter a value to add to the list
+hello there
+
+
+Choose an operation to perform:
+1
+Enter a value to add to the list
+yeah
+
+
+Choose an operation to perform:
+8
+hello there  yeah  
+
+Choose an operation to perform:
+7
+yeah  hello there  
+
+Choose an operation to perform:
+1
+Enter a value to add to the list
+4
+
+
+Choose an operation to perform:
+8
+hello there  yeah  4  
+
+Choose an operation to perform:
+4
+
+
+Choose an operation to perform:
+8
+hello there  yeah  
+
+Choose an operation to perform:
+1
+Enter a value to add to the list
+hi it's been long
+
+
+Choose an operation to perform:
+1
+Enter a value to add to the list
+yes 
+
+
+Choose an operation to perform:
+8
+hello there  yeah  hi it's been long  yes   
+
+Choose an operation to perform:
+6
+Enter position of element to delete 
+yes
+Invalid input. Enter a positive number
+
+
+Choose an operation to perform:
+8
+hello there  yeah  hi it's been long  yes   
+
+Choose an operation to perform:
+6
+Enter position of element to delete 
+3
+3th node has been deleted...
+
+
+Choose an operation to perform:
+8
+hello there  hi it's been long  yes   
+
+Choose an operation to perform:
+3
+Enter an info to delete
+8
+
+
+Choose an operation to perform:
+4
+
+
+Choose an operation to perform:
+8
+hi it's been long  yes   
+
+Choose an operation to perform:
+6
+Enter position of element to delete 
+10
+no such element. Program is shutting down.....

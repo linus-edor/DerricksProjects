@@ -1,0 +1,10 @@
+all: PA4.exe
+
+clean:
+    rm TestProgram.o PA4.exe
+
+PA4.exe: TestProgram.o
+    g++ -g -o PA4 TestProgram.o
+
+TestProgram.o:
+    g++ -c -g TestProgram.cpp

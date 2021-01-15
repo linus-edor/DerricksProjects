@@ -1,0 +1,10 @@
+all: PA5.exe
+
+clean:
+    rm testProgramLinkedList.o PA5.exe
+
+PA5.exe: testProgramLinkedList.o
+    g++ -g -o PA5 testProgramLinkedList.o
+
+testProgramLinkedList.o:
+    g++ -c -g testProgramLinkedList.cpp

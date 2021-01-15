@@ -1,0 +1,10 @@
+all: PA2.exe
+
+clean:
+    rm TestProgram.o PA2.exe
+
+PA2.exe: TestProgram.o
+    g++ -g -o PA2 TestProgram.o
+
+TestProgram.o:
+    g++ -c -g TestProgram.cpp

@@ -1,0 +1,393 @@
+
+BINARY SEARCH TEST PROGRAM - PA8
+
+*****************************************************************
+This program is a binary search tree implementation test program.
+The program continuously presents a menu of operations to perform
+on a binary search tree instance until the user enters the option to
+quit the program.
+*****************************************************************
+
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+7
+Printing tree inOrder traversal........
+
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+5
+Printing tree postOrder traversal........
+
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+2
+Enter a value to delete:
+43
+Cannot delete from an empty tree.
+
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+4
+Enter a value to search for:
+54
+Cannot search an empty tree.
+54 was not found in the tree
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+3
+Enter a value whose node you want to delete:
+43
+Cannot delete from an empty tree.
+
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+1
+Enter a value to insert:
+34
+
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+1
+Enter a value to insert:
+65
+
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+5
+Printing tree postOrder traversal........
+65 34 
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+1
+Enter a value to insert:
+76
+
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+6
+Printing tree preOrder traversal........
+34 65 76 
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+5
+Printing tree postOrder traversal........
+76 65 34 
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+7
+Printing tree inOrder traversal........
+34 65 76 
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+9
+Invalid menu option chosen. 
+Option should be in range 1 to 8
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+1
+Enter a value to insert:
+54
+
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+1
+Enter a value to insert:
+54
+The item to be inserted is already in the tree -- duplicates are not allowed.
+
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+1
+Enter a value to insert:
+derrick
+
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+5
+Printing tree postOrder traversal........
+54 derrick 76 65 34 
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+6
+Printing tree preOrder traversal........
+34 65 54 76 derrick 
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+7
+Printing tree inOrder traversal........
+34 54 65 76 derrick 
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+2
+Enter a value to delete:
+derrick
+
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+5
+Printing tree postOrder traversal........
+54 76 65 34 
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+7
+Printing tree inOrder traversal........
+34 54 65 76 
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+1
+Enter a value to insert:
+34
+The item to be inserted is already in the tree -- duplicates are not allowed.
+
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+1
+Enter a value to insert:
+100
+
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+5
+Printing tree postOrder traversal........
+100 54 76 65 34 
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+3
+Enter a value whose node you want to delete:
+65
+
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+4
+Enter a value to search for:
+65
+65 was not found in the tree
+
+Choose an operation to perform:
+1- Insert an item
+2- Delete a given item
+3- Delete node
+4- Search for an item
+5- Print postOrder traversal
+6- Print preOrder traversal
+7- Print inOrder traversal
+8- Exit
+8
+
+Bye........
